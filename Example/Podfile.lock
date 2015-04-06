@@ -1,0 +1,105 @@
+PODS:
+  - CMDQueryStringSerialization (0.3.2):
+    - ISO8601
+  - cocoa-oauth (0.0.1):
+    - NSData+Base64 (~> 1.0)
+  - ISO8601 (0.1.2)
+  - NSData+Base64 (1.0.0)
+  - ReactiveCocoa (2.4.7):
+    - ReactiveCocoa/UI (= 2.4.7)
+  - ReactiveCocoa/Core (2.4.7):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.7)
+  - ReactiveCocoa/UI (2.4.7):
+    - ReactiveCocoa/Core
+  - SimpleAuth (0.3.7):
+    - SimpleAuth/BoxWeb (= 0.3.7)
+    - SimpleAuth/Core (= 0.3.7)
+    - SimpleAuth/DropboxWeb (= 0.3.7)
+    - SimpleAuth/Facebook (= 0.3.7)
+    - SimpleAuth/FacebookWeb (= 0.3.7)
+    - SimpleAuth/FoursquareWeb (= 0.3.7)
+    - SimpleAuth/GoogleWeb (= 0.3.7)
+    - SimpleAuth/Instagram (= 0.3.7)
+    - SimpleAuth/LinkedInWeb (= 0.3.7)
+    - SimpleAuth/Meetup (= 0.3.7)
+    - SimpleAuth/SinaWeiboWeb (= 0.3.7)
+    - SimpleAuth/Strava (= 0.3.7)
+    - SimpleAuth/Trello (= 0.3.7)
+    - SimpleAuth/TripIt (= 0.3.7)
+    - SimpleAuth/Tumblr (= 0.3.7)
+    - SimpleAuth/Twitter (= 0.3.7)
+    - SimpleAuth/TwitterWeb (= 0.3.7)
+    - SimpleAuth/UI (= 0.3.7)
+  - SimpleAuth/BoxWeb (0.3.7):
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/Core (0.3.7):
+    - CMDQueryStringSerialization
+    - ReactiveCocoa
+  - SimpleAuth/DropboxWeb (0.3.7):
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/Facebook (0.3.7):
+    - SimpleAuth/Core
+  - SimpleAuth/FacebookWeb (0.3.7):
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/FoursquareWeb (0.3.7):
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/GoogleWeb (0.3.7):
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/Instagram (0.3.7):
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/LinkedInWeb (0.3.7):
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/Meetup (0.3.7):
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/SinaWeiboWeb (0.3.7):
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/Strava (0.3.7):
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/Trello (0.3.7):
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/TripIt (0.3.7):
+    - cocoa-oauth
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/Tumblr (0.3.7):
+    - cocoa-oauth
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/Twitter (0.3.7):
+    - cocoa-oauth
+    - SimpleAuth/UI
+  - SimpleAuth/TwitterWeb (0.3.7):
+    - cocoa-oauth
+    - SimpleAuth/Core
+    - SimpleAuth/UI
+  - SimpleAuth/UI (0.3.7):
+    - SimpleAuth/Core
+
+DEPENDENCIES:
+  - SimpleAuth (from `..`)
+
+EXTERNAL SOURCES:
+  SimpleAuth:
+    :path: ..
+
+SPEC CHECKSUMS:
+  CMDQueryStringSerialization: 03c5d9847a4eaa2b3e4e439ce1ae24f914cc7fe1
+  cocoa-oauth: 1200a2170276a62a975f2786d505dab6e2db1fa8
+  ISO8601: f74aa93ae1264e5089614325ef44016f08c7ac6c
+  NSData+Base64: 4e84902c4db907a15673474677e57763ef3903e4
+  ReactiveCocoa: eb38dee0a0e698f73a9b25e5c1faea2bb4c79240
+  SimpleAuth: 734a26053961d20b496038724d74fdd0f353e04c
+
+COCOAPODS: 0.36.0
